@@ -13,6 +13,7 @@ const Employes = () => {
   
     let deletes = tableData.filter((ele)=>ele.id !== ii);
        setTableData(deletes);
+       console.log("");
   }
   return (
     <>
