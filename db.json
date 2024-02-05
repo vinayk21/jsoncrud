@@ -1,0 +1,39 @@
+{
+  "employe": [
+    {
+      "id": "1",
+      "name": "vinay",
+      "email": "vinukamaliya4428@gmail.com",
+      "phone": "1234556776",
+      "action": true
+    },
+    {
+      "id": "2",
+      "name": "ajay",
+      "email": "ajaykamaliya4428@gmail.com",
+      "phone": "9825774428",
+      "action": true
+    },
+    {
+      "id": "a1b3",
+      "name": "ramahir",
+      "email": "ram23@gamil.com",
+      "phone": "9825774445",
+      "active": true
+    },
+    {
+      "id": "584f",
+      "name": "ffd",
+      "email": "fdf",
+      "phone": "dfdf",
+      "active": true
+    },
+    {
+      "id": "15cc",
+      "name": "dsds",
+      "email": "sdsd",
+      "phone": "dsd",
+      "active": true
+    }
+  ]
+}
