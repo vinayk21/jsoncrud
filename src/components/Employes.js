@@ -8,11 +8,6 @@ const Employes = () => {
       .then((ee) => ee.json())
       .then((w) => setTableData(w));
   }, []);
-  // console.log("w", tableData);
-  // console.log("w", tableData);
-  // console.log("w", tableData);
-  // console.log("w", tableData);
-  // console.log("w", tableData);
   const deleteHandler =(ii) =>{
   
     let deletes = tableData.filter((ele)=>ele.id !== ii);
