@@ -12,14 +12,15 @@ const Employes = () => {
   const deleteHandler =(ii) =>{
   
     let deletes = tableData.filter((ele)=>ele.id !== ii);
-       setTableData(deletes);
+          setTableData(deletes);
   }
+  console.log(tableData);
   return (
     <>
      <button type="button" class="btn btn-success" onClick={()=>navigate("/create")}>
                       CreateRecord
                     </button>
-      <table class="table">
+      <table class="table">  
         <thead>
           <tr>
             <th scope="col">id</th>
@@ -30,7 +31,7 @@ const Employes = () => {
           </tr>
         </thead>
         <tbody>
-          {tableData?.map((el) => {
+          {tableData?.map((el) => {         
             return (
               <>
                 <tr>
