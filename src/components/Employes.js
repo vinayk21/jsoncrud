@@ -8,14 +8,14 @@ const Employes = () => {
       .then((ee) => ee.json())
       .then((w) => setTableData(w));
   }, []);
-  console.log("w", tableData);
+  // console.log("w", tableData);
   const deleteHandler =(ii) =>{
   
     let deletes = tableData.filter((ele)=>ele.id !== ii);
           setTableData(deletes);
   }
   console.log(tableData);
-  return (
+  return ( 
     <>
      <button type="button" class="btn btn-success" onClick={()=>navigate("/create")}>
                       CreateRecord
